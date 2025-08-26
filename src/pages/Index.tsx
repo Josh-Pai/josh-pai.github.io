@@ -2,7 +2,7 @@ import { PortfolioHeader } from "@/components/portfolio/PortfolioHeader";
 import { PortfolioBio } from "@/components/portfolio/PortfolioBio";
 import { SocialLinks } from "@/components/portfolio/SocialLinks";
 import { TabsContent } from "@/components/portfolio/TabsContent";
-import airbnbCover from "@/assets/covers/Predicting Airbnb Listing Prices.png";
+import airbnbCover from "@/assets/covers/predicting-airbnb-listing-prices.png";
 import supplyChainCover from "@/assets/covers/supply-chain-cover.jpg";
 import predictiveCover from "@/assets/covers/predictive-analytics-cover.jpg";
 
@@ -13,9 +13,9 @@ const Index = () => {
     location: "San Francisco Bay Area",
     bio: "Passionate data scientist with expertise in machine learning, supply chain optimization, and predictive analytics. I transform complex data into actionable insights that drive business impact and operational efficiency.",
     social: {
-      linkedin: "https://www.linkedin.com/in/joshpai/",
+      linkedin: "https://www.linkedin.com/in/josh-pai/",
       github: "https://github.com/josh-pai",
-      email: "contact@joshpai.com"
+      email: "paijn@mail.uc.edu"
     },
     projects: [
       {
