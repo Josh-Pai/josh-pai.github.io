@@ -2,7 +2,7 @@ import { PortfolioHeader } from "@/components/portfolio/PortfolioHeader";
 import { PortfolioBio } from "@/components/portfolio/PortfolioBio";
 import { SocialLinks } from "@/components/portfolio/SocialLinks";
 import { TabsContent } from "@/components/portfolio/TabsContent";
-import airbnbCover from "@/assets/covers/airbnb-ml-cover.jpg";
+import airbnbCover from "@/assets/covers/Predicting Airbnb Listing Prices.png";
 import supplyChainCover from "@/assets/covers/supply-chain-cover.jpg";
 import predictiveCover from "@/assets/covers/predictive-analytics-cover.jpg";
 
@@ -20,11 +20,11 @@ const Index = () => {
     projects: [
       {
         title: "Machine Learning Project: Predicting Airbnb Listing Prices",
-        description: "Built a comprehensive machine learning pipeline to predict Airbnb listing prices in New York City. Developed an accurate pricing model while uncovering key features that influence pricing decisions, achieving 85% accuracy with ensemble methods.",
+        description: "This project focused on building a machine learning pipeline to predict Airbnb listing prices in New York City. The goal was to develop an accurate pricing model while uncovering key features that influence Airbnb prices. ",
         coverImage: airbnbCover,
         link: "https://www.linkedin.com/pulse/machine-learning-project-predicting-airbnb-listing-prices-josh-pai-8ggic",
-        tags: ["Python", "Machine Learning", "Data Analysis", "Regression", "Feature Engineering"],
-        date: "Mar 15, 2024"
+        tags: ["Python", "Machine Learning", "Data Science", "Regression", "Feature Engineering"],
+        date: "Apr 28, 2025"
       },
       {
         title: "Supply Chain Optimization Dashboard",
