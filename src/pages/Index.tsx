@@ -2,7 +2,7 @@ import { PortfolioHeader } from "@/components/portfolio/PortfolioHeader";
 import { PortfolioBio } from "@/components/portfolio/PortfolioBio";
 import { SocialLinks } from "@/components/portfolio/SocialLinks";
 import { TabsContent } from "@/components/portfolio/TabsContent";
-import airbnbCover from "@/assets/covers/airbnb-ml-cover.jpg";
+import airbnbCover from "@/assets/covers/predicting-airbnb-listing-prices.png";
 import supplyChainCover from "@/assets/covers/supply-chain-cover.jpg";
 import predictiveCover from "@/assets/covers/predictive-analytics-cover.jpg";
 
@@ -10,7 +10,7 @@ const Index = () => {
   const portfolioData = {
     name: "Josh Pai",
     title: "Data Scientist/Analyst, Supply Chain",
-    location: "San Francisco Bay Area",
+    location: "Cincinnati Metropolitan Area",
     bio: "Passionate data scientist with expertise in machine learning, supply chain optimization, and predictive analytics. I transform complex data into actionable insights that drive business impact and operational efficiency.",
     social: {
       linkedin: "https://www.linkedin.com/in/josh-pai/",
@@ -25,57 +25,48 @@ const Index = () => {
         link: "https://www.linkedin.com/pulse/machine-learning-project-predicting-airbnb-listing-prices-josh-pai-8ggic",
         tags: ["Python", "Machine Learning", "Data Science", "Regression", "Feature Engineering"],
         date: "Apr 28, 2025"
-      },
-      {
-        title: "Supply Chain Optimization Dashboard",
-        description: "Created an interactive dashboard for supply chain performance monitoring, featuring real-time KPI tracking, demand forecasting, and inventory optimization algorithms that improved efficiency by 23%.",
-        coverImage: supplyChainCover,
-        tags: ["Supply Chain", "Dashboard", "Analytics", "Optimization", "Forecasting"],
-        date: "Jan 22, 2024"
-      },
-      {
-        title: "Title 3",
-        description: "Implemented time series forecasting models to predict product demand across multiple regions, integrating seasonal patterns, market trends, and external factors to reduce forecast error by 35%.",
-        coverImage: predictiveCover,
-        tags: ["Time Series", "Forecasting", "Demand Planning", "Statistical Modeling"],
-        date: "Sep 08, 2023"
       }
     ],
     experience: [
       {
-        title: "Data Scientist",
-        company: "Supply Chain Analytics Corp",
-        period: "2023 - Present",
+        title: "Technical Product Manager",
+        company: "JFJ TECH",
+        period: "Mar 2020 - Jul 2024",
         location: "San Francisco, CA",
         description: [
-          "Developed machine learning models for demand forecasting and inventory optimization",
-          "Led cross-functional analytics projects resulting in $2M+ annual cost savings",
-          "Built automated reporting pipelines reducing manual work by 60%",
-          "Mentored junior analysts on best practices in data science and statistical modeling"
+          "Led the product roadmap for a 1M-user e-commerce platform by translating in-depth user behavior analysis and market trends into actionable strategies, resulting in a 20% YoY revenue increase.",
+          "Implemented comprehensive data analysis and reporting in Power BI, conducting sales, market trends, and competitive analysis, driving data-informed decision-making processes in marketing and operation teams.",
+          "Architected a fraud detection system by defining requirements and engineering features with Python and SQL, reducing fraudulent transactions by 70%."
         ]
       },
       {
-        title: "Supply Chain Analyst",
-        company: "Global Logistics Solutions",
-        period: "2021 - 2023", 
+        title: "Project Manager",
+        company: "JFJ Productions",
+        period: "Feb 2019 - Mar 2020", 
         location: "Oakland, CA",
         description: [
-          "Analyzed supply chain performance metrics and identified optimization opportunities",
-          "Created data visualization dashboards for executive-level reporting",
-          "Collaborated with operations teams to implement data-driven process improvements",
-          "Reduced supply chain costs by 15% through strategic data analysis and recommendations"
+          "Translated customer insights and performance data into detailed user stories and product specifications, improving cross-team clarity and accelerating development cycles.",
+          "Utilized Jira and Excel to monitor team performance and key delivery metrics, analyzing sprint velocity to identify and resolve process bottlenecks, which improved on-time delivery by 18%."
         ]
       },
       {
-        title: "Business Intelligence Analyst",
-        company: "Tech Startup Inc",
-        period: "2020 - 2021",
+        title: "Data Analyst",
+        company: "JFJ Productions",
+        period: "Mar 2020 - Jan 2021",
         location: "San Jose, CA", 
         description: [
-          "Built ETL pipelines and data warehouses for business intelligence reporting",
-          "Developed KPI dashboards tracking business performance across multiple departments",
-          "Conducted A/B testing analysis to optimize product features and user experience",
-          "Automated reporting processes, saving 20+ hours per week of manual work"
+          "Analyzed supply chain fulfillment data using SQL, Python (Pandas, NumPy), and Tableau to identify inefficiencies in inventory turnover, improving operational efficiency by 15%.",
+          "Collaborated with cross-functional operations and finance teams to define and track logistics KPIs, implementing data-driven process optimizations that reduced average fulfillment time by 25%."
+        ]
+      },
+      {
+        title: "Software Engineer",
+        company: "Wistron",
+        period: "Oct 2014 - Aug 2016",
+        location: "San Jose, CA", 
+        description: [
+          "Managed Bill of Materials (BOM) and supplier specifications within the Teamcenter PLM system, and engineered automated ETL pipelines with Python to consolidate this data for accurate BI reporting.",
+          "Automated the generation of weekly procurement and material inventory reports by querying MySQL and processing JSON data exports with JavaScript and Excel VBA, leading to a 12% improvement in supplier on-time delivery."
         ]
       }
     ],
