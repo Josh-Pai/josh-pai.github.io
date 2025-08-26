@@ -34,7 +34,7 @@ const Index = () => {
         date: "Jan 22, 2024"
       },
       {
-        title: "Predictive Analytics for Demand Planning",
+        title: "Title 3",
         description: "Implemented time series forecasting models to predict product demand across multiple regions, integrating seasonal patterns, market trends, and external factors to reduce forecast error by 35%.",
         coverImage: predictiveCover,
         tags: ["Time Series", "Forecasting", "Demand Planning", "Statistical Modeling"],
