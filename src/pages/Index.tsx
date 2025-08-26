@@ -2,7 +2,7 @@ import { PortfolioHeader } from "@/components/portfolio/PortfolioHeader";
 import { PortfolioBio } from "@/components/portfolio/PortfolioBio";
 import { SocialLinks } from "@/components/portfolio/SocialLinks";
 import { TabsContent } from "@/components/portfolio/TabsContent";
-import airbnbCover from "@/assets/covers/predicting-airbnb-listing-prices.png";
+import airbnbCover from "@/assets/covers/airbnb-ml-cover.jpg";
 import supplyChainCover from "@/assets/covers/supply-chain-cover.jpg";
 import predictiveCover from "@/assets/covers/predictive-analytics-cover.jpg";
 
