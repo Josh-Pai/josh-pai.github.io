@@ -111,24 +111,18 @@ export const TabsContent = ({ projects, experience, skills }: TabsContentProps) 
                 <CardContent className="pt-6">
                   <div className="prose max-w-none text-muted-foreground">
                     <p className="mb-4">
-                      I'm a passionate data scientist with a strong background in supply chain analytics and machine learning. 
-                      My journey began with a fascination for uncovering patterns in complex datasets and has evolved into a 
-                      career focused on transforming raw data into strategic business insights.
+                      📈 Master of Science in Information Systems candidate at the University of Cincinnati, passionate about the full data lifecycle — from engineering robust data pipelines to building predictive machine learning models and delivering actionable business insights.
                     </p>
                     <p className="mb-4">
-                      With over 4 years of experience in the field, I specialize in predictive analytics, demand forecasting, 
-                      and supply chain optimization. I've had the privilege of working with cross-functional teams to implement 
-                      data-driven solutions that have generated millions in cost savings and operational improvements.
+                      With a background in product development and project analysis, I discovered my true passion lies in using data to solve tangible problems. My hands-on experience ranges from analyzing supply chain data to improve operational efficiency, to building fraud detection models with Python, and to designing A/B tests that reduced customer cart abandonment.
                     </p>
                     <p className="mb-4">
-                      My approach combines technical expertise with business acumen, ensuring that every model I build and 
-                      every analysis I conduct serves a clear strategic purpose. I'm particularly passionate about machine 
-                      learning applications in supply chain management and enjoy mentoring junior analysts in best practices.
+                      This drive led me to deepen my expertise. I am actively seeking Data Science, Data Engineering, or Business Analytics co-op/internship opportunities for 2025 where I can contribute my skills in:
                     </p>
                     <p>
-                      When I'm not diving deep into datasets, I enjoy staying current with the latest developments in AI and 
-                      machine learning, contributing to open-source projects, and sharing insights through technical blog posts 
-                      and industry presentations.
+                      ✅ Business Intelligence & Analytics: Creating insightful dashboards (Power BI, Tableau) and translating complex data into clear, data-driven recommendations.<br></br>
+                      ✅ Data Science & Machine Learning: Building predictive models (forecasting, classification), NLP, and conducting statistical experiments (A/B testing).<br></br>
+                      ✅ Data Engineering: Developing and automating ETL pipelines on cloud platforms like AWS (Glue, Redshift) to ensure data integrity and accessibility.
                     </p>
                   </div>
                 </CardContent>
